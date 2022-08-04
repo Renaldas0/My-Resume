@@ -18,6 +18,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -161,6 +165,10 @@ header {
     letter-spacing: 2px;
 }
 
+.section-heading {
+    margin-bottom: 30px
+}
+
 /*------------------Hover.css-------------*/
 
 .hvr-sweep-to-bottom::before {
@@ -291,7 +299,7 @@ footer {
     margin: 40px 20px;
 }
 
-/*------------------Work hisrtory-------------*/
+/*------------------Work history-------------*/
 
 .history-heading {
     color: #fafafa;
@@ -337,4 +345,26 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*------------------Contact Form-------------*/
+
+.contact-heading {
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
 }
